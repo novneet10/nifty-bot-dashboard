@@ -1,0 +1,7 @@
+pandas
+streamlit
+requests
+schedule
+pyyaml
+kiteconnect
+openpyxl
