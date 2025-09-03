@@ -1,0 +1,3 @@
+API_KEY: "actual_key_from_kite_console"
+API_SECRET: "actual_secret_from_kite_console"
+REDIRECT_URI: "http://127.0.0.1:5000/callback"
