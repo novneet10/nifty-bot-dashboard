@@ -2,3 +2,35 @@ access_token: LvaUEC250b2cV9Csxno37HZfEvW1woZO
 api_key: l3qlu0ortq2dhopi
 api_secret: dmnv7lt52mngqxdpr8bsre60774r5x74
 token_generated_at: '2025-09-03T20:05:39.401417'
+# config.yaml
+# Main configuration for your Nifty Bot Dashboard
+
+# List of symbols or tickers to track
+watchlist:
+  - NIFTY
+  - BANKNIFTY
+  - RELIANCE
+  - TCS
+
+# Trading parameters
+trade_settings:
+  capital: 100000         # starting capital in INR
+  max_positions: 5        # maximum open positions at a time
+  risk_per_trade: 0.02    # 2% risk per trade
+
+# Data source settings
+data_source:
+  provider: "yahoo"       # or "alpha_vantage", "kite", etc.
+  refresh_interval: 5     # in minutes
+
+# Logging and alerts
+logging:
+  level: "INFO"           # DEBUG, INFO, WARNING, ERROR
+  log_to_file: true
+  log_file_path: "logs/app.log"
+
+alerts:
+  enable: true
+  channels:
+    - email
+    - telegram
