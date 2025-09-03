@@ -1,14 +1,4 @@
-settings:
-  dry_run: true
-  market_window:
-    end: '10:00'
-    start: 09:00
-slack:
-  webhook_url: https://hooks.slack.com/services/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
-watchlist:
-  RELIANCE:
-    atr_threshold: 2.0
-    direction: LONG
-    rvol_threshold: 1.5
-    tag: Energy
-    token: 738561
+access_token: LvaUEC250b2cV9Csxno37HZfEvW1woZO
+api_key: l3qlu0ortq2dhopi
+api_secret: dmnv7lt52mngqxdpr8bsre60774r5x74
+token_generated_at: '2025-09-03T20:05:39.401417'
