@@ -23,4 +23,11 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+# Ignore secrets
+secrets/
+config.yaml
+.env
 
+# Python cache
+__pycache__/
+*.pyc
